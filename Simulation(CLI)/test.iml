@@ -12,5 +12,6 @@
     <orderEntry type="library" name="log4j-1.2.171" level="project" />
     <orderEntry type="library" name="gson-2.11.01" level="project" />
     <orderEntry type="library" name="gson-2.11.02" level="project" />
+    <orderEntry type="library" name="gson-2.11.03" level="project" />
   </component>
 </module>

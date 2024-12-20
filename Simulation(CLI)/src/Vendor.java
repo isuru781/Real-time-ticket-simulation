@@ -1,7 +1,7 @@
 public class Vendor implements Runnable {
     private int totalTickets;
     private int ticketReleaseRate;
-    private TicketPool ticketPool;
+    private TicketPool ticketPool;//can access same ticket pool
 
     public Vendor(int totalTickets, int ticketReleaseRate, TicketPool ticketPool) {//constructeer to get input
         this.totalTickets = totalTickets;
@@ -12,6 +12,7 @@ public class Vendor implements Runnable {
     public Vendor(int totalTickets) {
         this.totalTickets = totalTickets;
     }
+
 
     @Override
     public void run() {//thread is start this method running

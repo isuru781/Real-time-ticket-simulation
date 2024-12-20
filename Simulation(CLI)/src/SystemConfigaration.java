@@ -104,7 +104,6 @@ public class SystemConfigaration {
     public List<SystemConfigaration> loadDataFromJson() {
         List<SystemConfigaration> configurationList = new ArrayList<>();//create a array to store load data
 
-
         Gson gson = new Gson();//create a  gson
 
 
@@ -128,13 +127,13 @@ public class SystemConfigaration {
     // metod create to write json
     public List<SystemConfigaration> writeDataToJson() {
         List<SystemConfigaration> configurationList = loadDataFromJson(); // load a preves data
-        configurationList.add(this);// add a input data to list
+        configurationList.add(this);//list ekata add kar
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();//create a gson  object
 
 
         try (FileWriter writer = new FileWriter("ticketDataList.json")) {//write to json file
-            gson.toJson(configurationList, writer);
+            gson.toJson(configurationList, writer);//write kara
             System.out.println("List data written to ticketDataList.json successfully!");
         } catch (IOException e) {
             e.printStackTrace();

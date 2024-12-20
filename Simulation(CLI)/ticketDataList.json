@@ -52,5 +52,29 @@
     "ticketRleseRate": 2,
     "custemerRetrivalRate": 3,
     "MaxTicketCapacity": 100
+  },
+  {
+    "TotalTickets": 55,
+    "ticketRleseRate": 3,
+    "custemerRetrivalRate": 4,
+    "MaxTicketCapacity": 25
+  },
+  {
+    "TotalTickets": 70,
+    "ticketRleseRate": 5,
+    "custemerRetrivalRate": 4,
+    "MaxTicketCapacity": 15
+  },
+  {
+    "TotalTickets": 55,
+    "ticketRleseRate": 2,
+    "custemerRetrivalRate": 3,
+    "MaxTicketCapacity": 14
+  },
+  {
+    "TotalTickets": 55,
+    "ticketRleseRate": 2,
+    "custemerRetrivalRate": 3,
+    "MaxTicketCapacity": 55
   }
 ]

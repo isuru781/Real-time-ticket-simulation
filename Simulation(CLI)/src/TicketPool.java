@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Vector;
 
 
-class TicketPool {
+public class TicketPool {
     private int maxCapacity;
     private int ticketsSold;
     private int ticketAdded;
