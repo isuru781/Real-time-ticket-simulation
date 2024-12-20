@@ -1,0 +1,62 @@
+.form {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 15px; 
+    text-align: center;
+}
+
+.label {
+    background-color: rgb(164, 235, 232);
+    color: rgb(74, 55, 250);
+    border-radius: 10px;
+    padding: 5px 10px; 
+    width: 200px;
+    text-align: right; 
+margin-left: 400px;
+}
+
+.input {
+    width: 250px; 
+    padding: 5px; 
+    color: rgb(2, 2, 2);
+    background-color: rgb(40, 209, 209);
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.lab{
+
+    padding-bottom: 12px;
+    padding-top: 15px;
+}
+
+.button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+
+.sim{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    color:rgb(248, 248, 255);
+    text-align: center;
+}
+
+body{
+    background-color: #a7a1a4;
+}
+

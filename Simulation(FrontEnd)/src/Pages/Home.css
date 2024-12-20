@@ -1,0 +1,36 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #8d8087;
+}
+
+
+.box{
+  background-color: #8d8087;
+}
+
+h1 {
+  font-size: 3.0em;
+  color: #fffdfd;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  font-size: 1.5em;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
